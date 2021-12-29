@@ -1,0 +1,8 @@
+name: action-checkout
+on: [push]
+jobs: 
+    build-project:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - run tree
