@@ -14,4 +14,10 @@ jobs:
               run: yarn build
             - name: set-up-finish
               run: echo "setting up finished"
-            - run: tree
+    
+    run-project:
+        needs: build-project
+        runs-on: ubuntu-latest
+        steps:
+            run: echo "second project succeed"
+
