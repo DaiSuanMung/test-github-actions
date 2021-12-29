@@ -19,5 +19,5 @@ jobs:
         needs: build-project
         runs-on: ubuntu-latest
         steps:
-            run: echo "second project succeed"
+            - run: echo "second project succeed"
 
