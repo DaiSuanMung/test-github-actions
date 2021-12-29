@@ -1,0 +1,12 @@
+# this is how u create object
+myapp: 
+    service: git-actions-project
+    myArray:
+        - key1: key1
+          keyOne: keyOne
+        - key2:key2
+    multipleLine: |
+        This is multiple line
+        with the Pipe
+
+    
